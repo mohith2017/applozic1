@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectronicsActivity">
+
+    <Button
+        android:id="@+id/btPP"
+        android:layout_width="199dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+
+
+        android:onClick="onClickBio"
+        android:text="BIOGRAPHIES"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btTools"
+        android:layout_width="197dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/btPP"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+
+
+        android:onClick="onClickLit"
+        android:text="LITERATURE-FICTION"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btPC"
+        android:layout_width="172dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/btTools"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+
+
+        android:onClick="onClickAca"
+        android:text="ACADEMICS"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btDC"
+        android:layout_width="227dp"
+        android:layout_height="112dp"
+        android:layout_above="@+id/btTen"
+        android:layout_below="@+id/btPC"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+
+
+        android:layout_marginBottom="12dp"
+        android:onClick="onClickDict"
+        android:text="ENTRANCE EXAMS"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btTen"
+        android:layout_width="217dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+
+        android:layout_marginLeft="96dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="26dp"
+
+        android:onClick="onClickInd"
+        android:text="INDIAN WRITINGS"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

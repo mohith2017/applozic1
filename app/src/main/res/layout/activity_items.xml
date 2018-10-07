@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemsActivity">
+
+    <TextView
+        android:id="@+id/tvItems"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Select the Item: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btEle"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickElectronics"
+                android:text="ELECTRONICS"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btClothes"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickClothing"
+                android:text="MEN'S CLOTHING"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btWomen"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickWomen"
+                android:text="WOMEN'S CLOTHING"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/tvStat"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickStationaries"
+                android:text="STATIONARIES"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/tvBAby"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickBaby"
+                android:text="BABY and CARE"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btaBooks"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickBooks"
+                android:text="BOOKS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tvSports"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickSports"
+                android:text="SPORTS"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btKitchen"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:onClick="onClickKitchen"
+                android:text="KITCHEN"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

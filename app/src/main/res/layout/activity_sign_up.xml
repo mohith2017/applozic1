@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:text="FULL NAME:"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvDOB"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvName"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:text="DATE OF BIRTH: "
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvDOB"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:text="PHONE NUMBER:"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="145dp"
+        android:text="SEND OTP"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ptName"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/tvName"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/tvGender"
+        android:ems="10"
+        android:hint="Enter the date of birth"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ptDOB"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ptName"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/tvGender"
+        android:ems="10"
+        android:hint="Enter the Phone Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ptgender"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ptDOB"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/tvGender"
+        android:ems="10"
+        android:hint="enter the Email-ID"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btResend"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignBottom="@+id/btOTP"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:text="RESEND OTP"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ptOTP"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginBottom="70dp"
+        android:ems="10"
+        android:hint="Please Enter the OTP  here"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/ptName"
+        android:layout_alignTop="@+id/tvName"
+        android:ems="10"
+        android:hint="Enter the full Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_alignTop="@+id/ptgender"
+        android:layout_marginStart="2dp"
+        android:text="EMAIL-ID"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/brSendOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvGender"
+        android:layout_alignEnd="@+id/btResend"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="86dp"
+        android:text="SUBMIT"
+        android:textStyle="bold" />
+
+</RelativeLayout>
